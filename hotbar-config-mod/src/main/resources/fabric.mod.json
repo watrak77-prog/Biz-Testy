@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "hotbarconfig",
+  "version": "${version}",
+  "name": "Hotbar Configuration Mod",
+  "description": "Save and restore hotbar configurations by item category",
+  "authors": [
+    "HotbarConfig"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/hotbarconfig/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.hotbarconfig.HotbarConfigMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.5",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
